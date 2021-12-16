@@ -1,0 +1,37 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: aquamarine;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-title{
+    color: darkorange;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+}
+
+.nav-links {
+    justify-content: end;
+    align-items: center;
+    display: flex;
+}
+
+li{
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    margin: 15px
+}
+
+a{
+    color: darkorange;
+}
+
+.btn {
+    background-color: lightyellow;
+    color: tomato
+}
